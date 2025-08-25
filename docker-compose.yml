@@ -5,7 +5,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - MONGO_URI=mongodb://mongo:27017/faceauth
+      - MONGO_URI=mongodb+srv://n11857374:EsCIwk1m5E5ZYWWV@n11857374.kerp9zx.mongodb.net/FaceAuth?retryWrites=true&w=majority
       - JWT_SECRET=N11857374_RestAPI
     depends_on:
       - mongo
